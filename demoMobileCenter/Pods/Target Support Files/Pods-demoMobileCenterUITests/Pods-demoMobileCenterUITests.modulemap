@@ -1,0 +1,6 @@
+framework module Pods_demoMobileCenterUITests {
+  umbrella header "Pods-demoMobileCenterUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
