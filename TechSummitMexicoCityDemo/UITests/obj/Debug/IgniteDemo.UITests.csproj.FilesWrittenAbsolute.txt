@@ -1,0 +1,7 @@
+/Users/madhurig/testrepos/github/testprojects/TechSummitMexicoCityDemo/UITests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/madhurig/testrepos/github/testprojects/TechSummitMexicoCityDemo/UITests/bin/Debug/IgniteDemo.UITests.dll.mdb
+/Users/madhurig/testrepos/github/testprojects/TechSummitMexicoCityDemo/UITests/bin/Debug/IgniteDemo.UITests.dll
+/Users/madhurig/testrepos/github/testprojects/TechSummitMexicoCityDemo/UITests/obj/Debug/IgniteDemo.UITests.dll
+/Users/madhurig/testrepos/github/testprojects/TechSummitMexicoCityDemo/UITests/obj/Debug/IgniteDemo.UITests.dll.mdb
+/Users/madhurig/testrepos/github/testprojects/TechSummitMexicoCityDemo/UITests/bin/Debug/nunit.framework.dll
+/Users/madhurig/testrepos/github/testprojects/TechSummitMexicoCityDemo/UITests/bin/Debug/Xamarin.UITest.dll

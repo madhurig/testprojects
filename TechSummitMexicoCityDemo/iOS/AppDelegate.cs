@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using Foundation;
+﻿using Foundation;
 using UIKit;
-using HockeyApp.iOS;
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
 
 namespace IgniteDemo.iOS
 {
@@ -22,13 +20,8 @@ namespace IgniteDemo.iOS
 
 			app.ApplicationSupportsShakeToEdit = true;
 
-
-			var manager = BITHockeyManager.SharedHockeyManager;
-			manager.Configure("9551993548bc4ed3a2a6ad98af2f0975");
-			manager.StartManager();
-			//manager.Authenticator.AuthenticateInstallation(); // This line is obsolete in crash only builds
-
-
+			MobileCenter.Start("6278b82e-7d8a-4953-896d-9efce9821650",
+					typeof(Analytics), typeof(Crashes));
 
 			LoadApplication(new App());
 

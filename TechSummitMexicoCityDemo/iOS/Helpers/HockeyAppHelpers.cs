@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using IgniteDemo.iOS;
-using HockeyApp.iOS;
+//using HockeyApp.iOS;
 
 [assembly:Dependency(typeof(HockeyAppHelpers))]
 namespace IgniteDemo.iOS
@@ -10,8 +10,8 @@ namespace IgniteDemo.iOS
 	{
 		public void SendFeedback()
 		{
-			var feedbackManager = BITHockeyManager.SharedHockeyManager.FeedbackManager;
-			feedbackManager.ShowFeedbackComposeViewWithGeneratedScreenshot();
+			//var feedbackManager = BITHockeyManager.SharedHockeyManager.FeedbackManager;
+			//feedbackManager.ShowFeedbackComposeViewWithGeneratedScreenshot();
 
 		}
 	}

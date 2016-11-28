@@ -7,8 +7,12 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using HockeyApp.Android;
-using HockeyApp.Android.Metrics;
+//using HockeyApp.Android;
+//using HockeyApp.Android.Metrics;
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
+
 
 namespace IgniteDemo.Droid
 {
@@ -24,10 +28,13 @@ namespace IgniteDemo.Droid
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 
-			CrashManager.Register(this, "b9c89a70b262429d85ec1d17bd9e1dac");
-			MetricsManager.Register(Application, "b9c89a70b262429d85ec1d17bd9e1dac");
+			//CrashManager.Register(this, "b9c89a70b262429d85ec1d17bd9e1dac");
+			//MetricsManager.Register(Application, "b9c89a70b262429d85ec1d17bd9e1dac");
 			//FeedbackManager.Register(this, "b9c89a70b262429d85ec1d17bd9e1dac");
 
+			MobileCenter.Start("61f47d2b-d1b2-42ce-82d6-980a2f09144f",
+					typeof(Analytics), typeof(Crashes));
+			
 			LoadApplication(new App());
 		}
 	}

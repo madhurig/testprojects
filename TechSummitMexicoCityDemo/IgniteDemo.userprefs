@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{3A6CF58E-406E-4F5B-B8CC-9E548037E2BC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
       <File FileName="IgniteDemo/QuestionPage.xaml.cs" Line="37" Column="8" />
-      <File FileName="IgniteDemo/obj/Debug/IgniteDemo.QuestionPage.xaml.g.cs" Line="1" Column="1" />
       <File FileName="iOS/Helpers/HockeyAppHelpers.cs" Line="1" Column="1" />
       <File FileName="Droid/MainActivity.cs" Line="15" Column="37" />
       <File FileName="Droid/Resources/Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="IgniteDemo/packages.config" Line="8" Column="12" />
+      <File FileName="IgniteDemo/App.xaml" Line="7" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="7" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.IgniteDemo.iOS PreferredExecutionTarget="MonoDevelop.Default" />

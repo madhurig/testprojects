@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using HockeyApp;
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
 
 using Xamarin.Forms;
 
@@ -40,7 +41,7 @@ namespace IgniteDemo
 				string eventName = "Attractions: ";
 				Answer item = (Answer) listView.SelectedItem;
 				eventName += item.Name;
-				HockeyApp.MetricsManager.TrackEvent(eventName);
+				//HockeyApp.MetricsManager.TrackEvent(eventName);
 
 				if (item.Name != "Great Pryamid of Tenochtitlan" && item.Name != "Historic Center of Mexico City")
 				{
