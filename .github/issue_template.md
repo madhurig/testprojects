@@ -1,14 +1,7 @@
 ### Environment
-- Server:
-    - [] VSTS
-    - [] TFS 
-        - TFS version:
-- Agent: 
-    - [] Hosted
-        - Agent queue:
-    - [] Private 
-        - OS name:
-        - Agent version:
+- Server - VSTS or TFS (provide version): 
+
+- Agent - Hosted or Private:         
 
 ### Issue Description
 
