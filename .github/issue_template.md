@@ -1,7 +1,7 @@
 ### Environment
 - Server - VSTS or TFS (provide version): 
 
-- Agent - Hosted or Private:         
+- Agent - Hosted or Private: 
 
 ### Issue Description
 
