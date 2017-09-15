@@ -1,12 +1,12 @@
 ### Environment
 - Server:
-    []VSTS
-    [] TFS 
+    - [] VSTS
+    - [] TFS 
         - TFS version:
 - Agent: 
-    [] Hosted
+    - [] Hosted
         - Agent queue:
-    [] Private 
+    - [] Private 
         - OS name:
         - Agent version:
 
