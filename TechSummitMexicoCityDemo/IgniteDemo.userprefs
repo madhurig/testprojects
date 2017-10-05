@@ -1,16 +1,34 @@
-﻿<Properties StartupConfiguration="{3A6CF58E-406E-4F5B-B8CC-9E548037E2BC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+﻿<Properties StartupConfiguration="{5C1D318D-F69B-48B2-AF2C-06E2B81794F9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
     <Files>
-      <File FileName="IgniteDemo/QuestionPage.xaml.cs" Line="37" Column="8" />
-      <File FileName="iOS/Helpers/HockeyAppHelpers.cs" Line="1" Column="1" />
-      <File FileName="Droid/MainActivity.cs" Line="15" Column="37" />
+      <File FileName="IgniteDemo/QuestionPage.xaml.cs" Line="44" Column="5" />
+      <File FileName="iOS/Helpers/HockeyAppHelpers.cs" Line="14" Column="6" />
+      <File FileName="Droid/MainActivity.cs" Line="17" Column="27" />
       <File FileName="Droid/Resources/Resource.designer.cs" Line="1" Column="1" />
-      <File FileName="IgniteDemo/packages.config" Line="8" Column="12" />
+      <File FileName="IgniteDemo/packages.config" Line="1" Column="1" />
       <File FileName="IgniteDemo/App.xaml" Line="7" Column="1" />
-      <File FileName="iOS/AppDelegate.cs" Line="7" Column="3" />
+      <File FileName="iOS/AppDelegate.cs" Line="3" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IgniteDemo" expanded="True">
+            <Node name="IgniteDemo" expanded="True">
+              <Node name="QuestionPage.xaml" expanded="True" />
+            </Node>
+            <Node name="IgniteDemo.Droid" expanded="True">
+              <Node name="MainActivity.cs" selected="True" />
+            </Node>
+            <Node name="IgniteDemo.iOS" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.IgniteDemo.iOS PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.IgniteDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AD46DD74-3974-4A51-A7B6-20EEF9A1F719" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
