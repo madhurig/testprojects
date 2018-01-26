@@ -1,0 +1,13 @@
+# Empty
+# Start with a pipeline that has no steps.
+# CodeLaunch YAML help: https://aka.ms/yaml
+
+queue:
+  name: 'Hosted VS2017'
+
+#variables:
+  # system.debug: 'true'
+
+steps:
+#- script: |
+#    'echo Write your commands here'
