@@ -1,6 +1,6 @@
 # Empty
 # Start with a pipeline that has no steps.
-# CodeLaunch YAML help: https://aka.ms/yaml
+# YAML help: https://aka.ms/yaml
 
 queue:
   name: 'Default'
