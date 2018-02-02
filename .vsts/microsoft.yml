@@ -1,7 +1,3 @@
-# Empty
-# Start with a pipeline that has no steps.
-# YAML help: https://aka.ms/yaml
-
 queue:
   name: 'Default'
 
