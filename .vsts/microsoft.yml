@@ -1,2 +1,5 @@
 queue:
   name: 'Default'
+
+steps:
+- script: 'echo hi'
