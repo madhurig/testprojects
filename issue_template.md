@@ -13,6 +13,4 @@
 
 [INSERT ERROR LOGS HERE]
 
-[CHange]
-
-[change in master]
+[Change from fork to verify variables]
